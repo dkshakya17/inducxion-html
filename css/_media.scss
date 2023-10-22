@@ -1,0 +1,158 @@
+@media (max-width:1024px) and (min-width:768px) {
+  div#fp-nav {
+    left: 31%;
+    bottom: 37%;
+    top: inherit;
+  }
+}
+
+@media (max-width:767px) and (min-width:320px) {
+  section#fullpage {
+    left: 0 !important;
+    z-index: 10;
+    padding: 5px 20px;
+    .main_text {
+      font-size: 1rem !important;
+      line-height: 1.2;
+    }
+  }
+  aside.main_header #main_menu {
+    width: 100%;
+    margin-top: 20px;
+    position: fixed;
+    z-index: 10000;
+    background: #fff;
+    left: 0;
+    top: 70px;
+    padding: 0 15px;
+    z-index: 9999;
+    border-top: 4px solid #cccccc21;
+  }
+  aside.main_header li.nav-item a.nav-link {
+    color: $black;
+    font-size: 16px;
+  }
+  .top_head.top_head ul li:last-child {
+    position: fixed;
+    top: 12px;
+    right: 56px;
+    z-index: 999;
+  }
+  aside.main_header {
+    position: relative;
+    nav.navbar.navbar-expand-lg {
+      width: 100%;
+      display: inline-flex;
+      justify-content: space-between;
+      align-items: center;
+      align-content: center;
+      flex-direction: row !important;
+      background: #1d72ce;
+      padding: 0 10px !important;
+      border-radius: 5px;
+      z-index: 9999;
+      position: fixed;
+      top: 0;
+      left: 0;
+    }
+    &:after {
+      display: none;
+    }
+  }
+  .sub_heading {
+    font-size: 18px;
+  }
+  div#fp-nav {
+    display: none;
+  }
+  header.top_head {
+    justify-content: center !important;
+    top: 58px;
+    z-index: 1000;
+    padding: 0;
+    right: 0px;
+    min-width: auto;
+    width: 100%;
+  }
+  footer.side_footer {
+    text-align: center;
+    width: 100%;
+    left: 0;
+    right: 0;
+    position: fixed;
+    bottom: 0;
+    z-index: 9999;
+    padding: 10px 0;
+    background: #1a71ce;
+    .copyright {
+      p {
+        margin: 2px;
+      }
+      span {
+        margin-bottom: 5px;
+      }
+    }
+  }
+  .top_head .nav {
+    justify-content: space-between !important;
+    background: #fff;
+  }
+  /*=============contact=================*/
+  form.contact_form .form-group {
+    margin-bottom: 10px;
+}
+.address_section > div:first-child .address {
+  float: none;
+}
+.address_map iframe{
+width: 100% !important;
+height: 100% !important;
+}
+.address_section .address {
+  padding: 10px 0;
+  align-items: normal;
+  border-right: none;
+  height: auto;
+}
+.address_section {
+  border: none;
+}
+  form.contact_form .form-control {
+    padding: 5px 10px;
+  }
+  form.contact_form {
+    padding: 5px 10px;
+}
+  /*=============testimonidal=================*/
+  h3.sub_heading.main_heading {
+    font-size: 16px;
+  }
+  .subtext_heading {
+    font-size: 16px;
+  }
+  .cmpny_logo .img-fluid {
+    height: 100%;
+    object-position: center;
+  }
+  section#fullpage .main_text {
+    font-size: 13px !important;
+  }
+  .main_heading {
+    font-size: 20px;
+  }
+  p.testi_content,p.testi_info {
+    font-size: 12px;
+    margin: 0;
+}
+.gallary .card {
+  padding: 0;
+  margin: 0;
+  border: 2px solid #1a71ce;
+  max-width: 130px;
+  margin-left: 16px;
+}
+  .client_list .col-lg-4 {
+    max-width: 100px;
+    max-height: 101px;
+  }
+}

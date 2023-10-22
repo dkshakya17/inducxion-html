@@ -1,0 +1,101 @@
+@media (max-width: 1024px) and (min-width: 768px) {
+  div#fp-nav {
+    left: 31%;
+    bottom: 37%;
+    top: inherit;
+  }
+}
+
+@media (max-width: 767px) and (min-width: 320px) {
+  section#fullpage {
+    left: 0 !important;
+    z-index: 10;
+    padding: 5px 20px;
+  }
+  section#fullpage .main_text {
+    font-size: 1rem !important;
+    line-height: 1.2;
+  }
+  aside.main_header #main_menu {
+    width: 100%;
+    margin-top: 20px;
+    position: fixed;
+    z-index: 10000;
+    background: #fff;
+    left: 0;
+    top: 70px;
+    padding: 0 15px;
+    border-top: 4px solid #cccccc21;
+  }
+  aside.main_header li.nav-item a.nav-link {
+    color: #000;
+  }
+  .top_head.top_head ul li:last-child {
+    position: fixed;
+    top: 12px;
+    right: 56px;
+    z-index: 999;
+  }
+  aside.main_header {
+    left: 0;
+    right: 0;
+    top: 0;
+    max-width: 100%;
+    padding: 0px;
+    z-index: 100;
+  }
+  aside.main_header nav.navbar.navbar-expand-lg {
+    width: 100%;
+    display: inline-flex;
+    justify-content: space-between;
+    align-items: center;
+    align-content: center;
+    flex-direction: row !important;
+    background: #1d72ce;
+    padding: 0 10px !important;
+    border-radius: 5px;
+    z-index: 9999;
+  }
+  aside.main_header:after {
+    display: none;
+  }
+  .sub_heading {
+    font-size: 18px;
+  }
+  div#fp-nav {
+    display: none;
+  }
+  header.top_head {
+    justify-content: center !important;
+    top: 58px;
+    z-index: 1000;
+    padding: 0;
+    right: 0px;
+    min-width: auto;
+    width: 100%;
+  }
+  footer.side_footer {
+    text-align: center;
+    width: 100%;
+    bottom: 0;
+    padding: 10px 0;
+    background: #1a71ce;
+  }
+  footer.side_footer .copyright p {
+    margin: 2px;
+  }
+  footer.side_footer .copyright span {
+    margin-bottom: 5px;
+  }
+  .top_head .nav {
+    justify-content: space-between !important;
+    background: #fff;
+  }
+  /*=============testimonidal=================*/
+  h3.sub_heading.main_heading {
+    font-size: 16px;
+  }
+  .subtext_heading {
+    font-size: 20px;
+  }
+}
